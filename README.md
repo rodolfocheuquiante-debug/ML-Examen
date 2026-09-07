@@ -33,3 +33,8 @@ En este repositorio presento el desarrollo completo de mi examen de Machine Lear
 
 Puedes revisar la presentación en el siguiente enlace:
 
+## Cómo Ejecutar el Proyecto
+1. Clona este repositorio o descarga los archivos.
+2. Abre el archivo `.ipynb` en [Google Colab](https://colab.research.google.com/).
+3. Asegúrate de tener el dataset `student-career-success-prediction-dataset` disponible en tu entorno de ejecución.
+4. Ejecuta las celdas secuencialmente de arriba a abajo.
