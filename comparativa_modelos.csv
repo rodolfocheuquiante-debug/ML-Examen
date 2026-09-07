@@ -1,0 +1,3 @@
+Modelo,RMSE,MAE,R2,MAPE,Tiempo (s)
+Ridge,0.0,0.0,1.0,0.0,1.3706
+Random Forest,2.835,2.1185,0.9876,0.0103,1129.2136
