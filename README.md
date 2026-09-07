@@ -18,7 +18,7 @@ En este repositorio presento el desarrollo completo de mi examen de Machine Lear
   1. Análisis Exploratorio (EDA): Verificación de nulos, tratamiento de valores atípicos mediante el método IQR en la variable objetivo y estudio de distribuciones.
   3. Preprocesamiento: Escalado de variables numéricas (StandardScaler) y codificación de variables categóricas (OneHotEncoder, OrdinalEncoder), estructurando un espacio de 63 características sin fuga de datos.
   4. Reducción de Dimensionalidad: Aplicación de Análisis de Componentes Principales (PCA) para optimizar la representación espacial de los datos.
-  5. Clustering: Búsqueda del ‭$K$‬ óptimo apoyada en el Silhouette Score (‭$K=2$‬‭‬), logrando separar de forma natural a los estudiantes de alto vs. bajo rendimiento.
+  5. Clustering: Búsqueda del ‭**K‬ óptimo** apoyada en el Silhouette Score (‭**K=2**‬‭‬), logrando separar de forma natural a los estudiantes de alto vs. bajo rendimiento.
   6. Modelado Predictivo: Optimización de hiperparámetros mediante GridSearchCV (validación cruzada con cv=5) comparando Ridge Regression frente a Random Forest.
   
 ## Resultados del Mejor Modelo (Ridge)
@@ -29,6 +29,7 @@ En este repositorio presento el desarrollo completo de mi examen de Machine Lear
 | **Random Forest** | 2.8350 | 2.1185 | 0.9876 | 0.0103 | 1129.21 s |
 
   * Hallazgo clave: El modelo Ridge demostró precisión matemática absoluta y una eficiencia computacional abismal frente a las 18 horas/minutos de los métodos basados en árboles, consolidándose como la solución definitiva.
-###Video Explicativo
-Puedes revisar la presentación y defensa completa del proyecto en el siguiente enlace:
+### Video Explicativo
+
+Puedes revisar la presentación en el siguiente enlace:
 
